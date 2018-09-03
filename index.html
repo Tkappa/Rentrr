@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" onkeypress="triggerReset(event)">
+  <head>
+    <meta charset="UTF-8">
+    <title>Rentrr</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap initialization -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/scrollreveal.js"></script>
+
+
+    <!-- Custom stylesheet and script -->
+    <link rel="stylesheet" href=".\css\mystyle.css">
+    <script src=".\js\myjs.js"></script>
+
+    <script>
+    </script>
+  </head>
+
+  <body onload="init()">
+
+    <div id="top" class="row" background-color="#C0D7FA" >
+      <div class="col-sm-4">
+        <a href="index.html"><img src="./img/logo.png" class="embed-responsive-item img-rounded" width="90" height="90" alt="logo" align="left" style="padding-top:10px"></a>
+      </div>
+      <div class="col-sm-4">
+        <h1 class="headline">
+        Rentrr
+        </h1>
+        <p class="tagline">
+            La macchina che vuoi,
+            <span class="punchline"> quando vuoi.</span>
+        </p>
+      </div>
+      <div id="tasti" class="col-sm-4" >
+        <p><a href="login.html">Sign in</a>/<a href="register.html">Sign up</a><p>
+      </div>
+    </div>
+
+    <!-- Initial carousel -->
+    <div id="carosello" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <article id="uno" class="item active">
+        <img src=".\img\car1.jpg" alt="car1" class="d-block w-100 img-rounded">
+        <div class="carousel-caption">
+          <h2> Vuoi una macchina per un breve periodo? </h2>
+        </div>
+        </article>
+
+        <article id="due" class="item">
+        <img src=".\img\car2.jpg" alt="car2" class="d-block w-100 img-rounded" >
+        <div class="carousel-caption">
+          <h2> La vuoi <small>piccola</small>? </h2>
+        </div>
+        </article>
+
+        <article id="tre" class="item">
+        <img src=".\img\car3.jpg" alt="car3" class="d-block w-100 img-rounded">
+        <div class="carousel-caption">
+          <h2> La vuoi <b>grande</b>? </h2>
+        </div>
+        </article>
+
+        <article id="qtr" class="item">
+        <img src=".\img\car4.jpg" alt="car4" class="d-block w-100 img-rounded" >
+        <div class="carousel-caption">
+          <h2> La vuoi <i>veloce</i> ?</h2>
+        </div>
+        </article>
+
+        <article id="qtr" class="item">
+        <img src=".\img\car5.jpg" alt="car5" class="d-block w-100 img-rounded">
+        <div class="carousel-caption">
+          <h2> ABBIAMO TUTTO! </h2>
+        </div>
+        </article>
+      </div>
+
+      <a class="left carousel-control" href="#carosello" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carosello" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <div class="parole row">
+      <div class="col-sm-6 cacca">
+        <h1 class="top"> La nostra offerta </h1>
+        <h3 class="tag"> Possiamo realizzare ogni desiderio </h3>
+        <p class="punch">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Cras semper auctor neque vitae tempus. Turpis massa tincidunt dui ut ornare lectus. Nec ullamcorper sit amet risus nullam eget. Dictum fusce ut placerat orci nulla pellentesque dignissim. Sem et tortor consequat id porta nibh venenatis. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. At imperdiet dui accumsan sit. In aliquam sem fringilla ut morbi tincidunt augue. At lectus urna duis convallis convallis tellus. Neque viverra justo nec ultrices dui sapien. Gravida rutrum quisque non tellus orci ac. Lobortis feugiat vivamus at augue eget arcu. Aliquam faucibus purus in massa tempor nec feugiat. Maecenas ultricies mi eget mauris pharetra et ultrices neque. Lectus urna duis convallis convallis tellus id. Nec nam aliquam sem et tortor consequat id.
+        </p>
+        <p class="punch">
+          Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim. Viverra nam libero justo laoreet sit. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet. Rutrum quisque non tellus orci ac auctor augue mauris augue. Faucibus et molestie ac feugiat sed lectus. Nisi est sit amet facilisis magna. Rhoncus urna neque viverra justo. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Risus in hendrerit gravida rutrum quisque non tellus orci. Sit amet massa vitae tortor condimentum lacinia quis vel eros. At in tellus integer feugiat scelerisque varius morbi enim nunc. Dapibus ultrices in iaculis nunc. Lobortis mattis aliquam faucibus purus in massa tempor.
+        </p>
+      </div>
+
+        <img src="./img/lambo.jpg" class="col-sm-6 imgmacchina enterright img-rounded" alt="Niete lambo?" >
+
+    </div>
+
+    <div id="contvideo" class="embed-responsive enterleft">
+      <video autoplay muted loop id="video" class="embed-responsive-item">
+          <source src="./img/drone.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="row parole">
+      <img src="./img/bike.jpg" class="col-sm-6 imgmacchina enterleft img-rounded" alt="Niete lambo?" >
+
+      <div class="col-sm-6">
+        <h1 class="top"> La nostra promessa </h1>
+        <h3 class="tag"> Non spenderai più di 50 euro* </h3>
+        <p class="punch">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet consectetur adipiscing elit. Tellus in hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Cras semper auctor neque vitae tempus. Turpis massa tincidunt dui ut ornare lectus. Nec ullamcorper sit amet risus nullam eget. Dictum fusce ut placerat orci nulla pellentesque dignissim. Sem et tortor consequat id porta nibh venenatis. Mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. At imperdiet dui accumsan sit. In aliquam sem fringilla ut morbi tincidunt augue. At lectus urna duis convallis convallis tellus. Neque viverra justo nec ultrices dui sapien. Gravida rutrum quisque non tellus orci ac. Lobortis feugiat vivamus at augue eget arcu. Aliquam faucibus purus in massa tempor nec feugiat. Maecenas ultricies mi eget mauris pharetra et ultrices neque. Lectus urna duis convallis convallis tellus id. Nec nam aliquam sem et tortor consequat id.
+        </p>
+        <p class="punch">
+          Bibendum arcu vitae elementum curabitur vitae nunc sed velit dignissim. Viverra nam libero justo laoreet sit. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet. Rutrum quisque non tellus orci ac auctor augue mauris augue. Faucibus et molestie ac feugiat sed lectus. Nisi est sit amet facilisis magna. Rhoncus urna neque viverra justo. Odio ut sem nulla pharetra diam sit amet nisl suscipit. Risus in hendrerit gravida rutrum quisque non tellus orci. Sit amet massa vitae tortor condimentum lacinia quis vel eros. At in tellus integer feugiat scelerisque varius morbi enim nunc. Dapibus ultrices in iaculis nunc. Lobortis mattis aliquam faucibus purus in massa tempor.
+        </p>
+        <p>
+          <small>*per la prenotazione</small>
+        </p>
+      </div>
+    </div>
+    <a href="lal">
+      <div class="bottone">
+      <h1 class="testo"> Apri il cassetto e fai uscire il sogno </h1>
+      </div>
+    </a>
+
+    <footer class="page-footer font-small" >
+      <div class="footer-copyright text-center py-3"> Ciao mondo sono un footer</div>
+    </footer>
+
+  </body>
+</html>
